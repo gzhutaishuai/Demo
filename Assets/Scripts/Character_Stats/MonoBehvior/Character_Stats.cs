@@ -6,6 +6,8 @@ public class Character_Stats : MonoBehaviour
 {
     public Character_Stats_SO template_Character_Data;
     public Character_Stats_SO character_Data;
+    public Attack_Data_SO attack_Data;
+    public Attack_Data_SO base_attack_Data;//基础人物攻击数据
 
     private int curHealth;
     private int maxHealth;
@@ -27,7 +29,8 @@ public class Character_Stats : MonoBehaviour
         //完成人物信息的传递
         if(template_Character_Data != null)
         {
-            character_Data=template_Character_Data;
+            character_Data=Instantiate(template_Character_Data);
         }
+        base_attack_Data=Instantiate(attack_Data);
     }
 }

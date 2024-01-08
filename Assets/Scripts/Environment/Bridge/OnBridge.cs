@@ -37,7 +37,7 @@ public class OnBridge : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-           if(spriteRenderer.sortingOrder==0&&spriteRenderer.sortingLayerName=="Player")
+           if(spriteRenderer.sortingOrder==0&&spriteRenderer.sortingLayerName=="Character")
             {
                 is_OnBridge = true;
             }

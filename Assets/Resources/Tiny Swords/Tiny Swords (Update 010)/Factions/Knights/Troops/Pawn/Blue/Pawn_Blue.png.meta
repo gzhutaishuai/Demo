@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,889 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pawn_Blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dd5f0b431de39418cd48000e59d28e
+      internalID: -52633411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 987.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c481d71687d9e5b43b7802ddff094006
+      internalID: -1984091196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 987.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95063ed72bc2fa84a86f92821b1bde96
+      internalID: 154207868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 987.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058b90e8b018fab4dbf836a7975a07cf
+      internalID: -983978621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 987.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b720f20426c98c40b0546087ea60b66
+      internalID: 1515879959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 987.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ed999d51ad8d04eac50c8ef5ca24d8
+      internalID: 641232654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 823.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6abe68a9aba4174088464075460c9a3
+      internalID: -396157339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 823.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa25a75a890fee941b0795cd5e07a371
+      internalID: -591907582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 823.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef515b563bc1051469271107f240e899
+      internalID: 849621300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 823.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5215497642a1812429a59a1c84e6648b
+      internalID: -1556467009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 823.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41d0890f86cc0d4897da1cd10475203
+      internalID: -911062120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 823.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf96020f117b0f46a8c867aabd77838
+      internalID: 721200959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 659.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581ff3b3cb59f90439d6fca0bed8bfde
+      internalID: 767315369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 659.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829022d20fd54fe4fafd30a42af1a1f5
+      internalID: -1775430167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 659.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f650d8950fa89714d88080ce0b01f92b
+      internalID: 1571631810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 659.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551226099f5dafa4bbc94e63181333a4
+      internalID: 1281150230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 659.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f2132fbdb49fd4594e9e0de1440d2b
+      internalID: 1246918496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 659.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b5268eacbc0ff408cab589ba76d70c
+      internalID: 1944330392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6040492460a22d84fa8e540ac6a618e3
+      internalID: -696435017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 495.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb410e8ec15bd0499d88e39a219234a
+      internalID: -792113866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 495.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243a10512da02be439ddc976ddc8aab5
+      internalID: 1006600802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 495.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3b73e9ea522524b9b602b22fed8da4
+      internalID: 1626516558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 495.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dfc5a732308854bb5223215f496050
+      internalID: -1755271766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 495.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f185f62388c0d745aa8553b1a62d753
+      internalID: 234088557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d8250ffd6ec6e42b969e08415533c3
+      internalID: 738279479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 331.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60730c1f15abc754ebad7261b502edb3
+      internalID: -2071865326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 331.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e2230810950414ba348dc35bcad6e5
+      internalID: -1648463841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 331.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0461e3472671e784dae12b7ab08e1bc0
+      internalID: 133273504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 331.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b847af229eea134b8f2a364f167d42c
+      internalID: -1596787433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 331.4286
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27d7c19c8a5ecc43911f37f6d960275
+      internalID: -660740164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167.42857
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a0fc18136491842a159b7d800e70fc
+      internalID: 1708124119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 167.42857
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a97f5d6c19a4f48a0b0f0428df5171
+      internalID: 703029065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 167.42857
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7ba27836284104482c54a54ebe3979
+      internalID: 662822814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 167.42857
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6eff453b03e384283d61c678c92c1c
+      internalID: -704750196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 167.42857
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81e90e624bb27642a719ade01c63891
+      internalID: -435021820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_35
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 167.42857
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221e141fcf319994cb4ce2a0126bd130
+      internalID: 294805931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.4285736
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82afa94e917577144a48573d80bef174
+      internalID: -1625967571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3.4285736
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e6bbf922fae494ea5c4a54cd5bc5ca
+      internalID: -694019256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3.4285736
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccbabe4339189b4aab70b4c699383f5
+      internalID: 182933174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3.4285736
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91eaeb2c8453874f8b037f85f18a54b
+      internalID: 353093267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3.4285736
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab04da31ef37fe49bb3cc37af5ec259
+      internalID: 458702427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawn_Blue_41
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3.4285736
+        width: 192
+        height: 164.57143
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390ee73d452d2c34bb85b5848aed6324
+      internalID: -1291054108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +1008,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pawn_Blue_0: -52633411
+      Pawn_Blue_1: -1984091196
+      Pawn_Blue_10: -911062120
+      Pawn_Blue_11: 721200959
+      Pawn_Blue_12: 767315369
+      Pawn_Blue_13: -1775430167
+      Pawn_Blue_14: 1571631810
+      Pawn_Blue_15: 1281150230
+      Pawn_Blue_16: 1246918496
+      Pawn_Blue_17: 1944330392
+      Pawn_Blue_18: -696435017
+      Pawn_Blue_19: -792113866
+      Pawn_Blue_2: 154207868
+      Pawn_Blue_20: 1006600802
+      Pawn_Blue_21: 1626516558
+      Pawn_Blue_22: -1755271766
+      Pawn_Blue_23: 234088557
+      Pawn_Blue_24: 738279479
+      Pawn_Blue_25: -2071865326
+      Pawn_Blue_26: -1648463841
+      Pawn_Blue_27: 133273504
+      Pawn_Blue_28: -1596787433
+      Pawn_Blue_29: -660740164
+      Pawn_Blue_3: -983978621
+      Pawn_Blue_30: 1708124119
+      Pawn_Blue_31: 703029065
+      Pawn_Blue_32: 662822814
+      Pawn_Blue_33: -704750196
+      Pawn_Blue_34: -435021820
+      Pawn_Blue_35: 294805931
+      Pawn_Blue_36: -1625967571
+      Pawn_Blue_37: -694019256
+      Pawn_Blue_38: 182933174
+      Pawn_Blue_39: 353093267
+      Pawn_Blue_4: 1515879959
+      Pawn_Blue_40: 458702427
+      Pawn_Blue_41: -1291054108
+      Pawn_Blue_5: 641232654
+      Pawn_Blue_6: -396157339
+      Pawn_Blue_7: -591907582
+      Pawn_Blue_8: 849621300
+      Pawn_Blue_9: -1556467009
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

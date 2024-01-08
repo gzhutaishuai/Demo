@@ -16,13 +16,13 @@ public class Up_Down_Bridge : MonoBehaviour
         {
             if(is_LRCollider)
             {
-                Bridge.GetComponent<SpriteRenderer>().sortingLayerName="Player";
+                Bridge.GetComponent<SpriteRenderer>().sortingLayerName="Character";
                 Bridge.GetComponent<SpriteRenderer>().sortingOrder = 0;
 
             }
             else 
             {
-                Bridge.GetComponent<SpriteRenderer>().sortingLayerName = "Player";
+                Bridge.GetComponent<SpriteRenderer>().sortingLayerName = "Character";
                 Bridge.GetComponent<SpriteRenderer>().sortingOrder= 1;
             }
         }
