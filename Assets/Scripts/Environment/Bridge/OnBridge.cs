@@ -35,7 +35,7 @@ public class OnBridge : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag("Player")||collision.CompareTag("Enemy"))
         {
            if(spriteRenderer.sortingOrder==0&&spriteRenderer.sortingLayerName=="Character")
             {
@@ -49,7 +49,7 @@ public class OnBridge : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player")||collision.CompareTag("Enemy"))
         {
             is_OnBridge = false;
         }

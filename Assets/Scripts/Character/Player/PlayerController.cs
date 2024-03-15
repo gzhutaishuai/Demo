@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using TreeEditor;
 using UnityEngine;
 using UnityEngine.Windows;
 
@@ -11,20 +10,20 @@ public class PlayerController : MonoBehaviour
     [Header("Speed")]
     float horizontal;
     float vertical;
-    public float speed;//ÒÆ¶¯ËÙ¶È
+    public float speed;//ï¿½Æ¶ï¿½ï¿½Ù¶ï¿½
 
     #region Attack Info
     [Header("Attack")]
-    private float interval=2;//Á¬»÷¼ä¸ô
-    private bool isAttack;//ÊÇ·ñ´¦ÓÚ¹¥»÷×´Ì¬
-    private string attack_Type;//¹¥»÷ÀàÐÍ
-    private float AttackSpeed=1;//¹¥»÷Ç°½ø¾àÀë
-    private float lr_attack_Time;//×óÓÒ¹¥»÷¼ÆÊ±Æ÷
-    private int lr_Combo;//×óÓÒÁ¬»÷Êý
-    private float up_attack_Time;//ÏòÉÏ¹¥»÷¼ÆÊ±Æ÷
-    private float down_attack_Time;//ÏòÏÂ¹¥»÷¼ÆÊ±Æ÷
-    private int up_Combo;//ÏòÉÏÁ¬»÷Êý
-    private int down_Combo;//ÏòÏÂÁ¬»÷Êý
+    private float interval=2;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private bool isAttack;//ï¿½Ç·ï¿½ï¿½Ú¹ï¿½ï¿½ï¿½×´Ì¬
+    private string attack_Type;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private float AttackSpeed=1;//ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private float lr_attack_Time;//ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+    private int lr_Combo;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private float up_attack_Time;//ï¿½ï¿½ï¿½Ï¹ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+    private float down_attack_Time;//ï¿½ï¿½ï¿½Â¹ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+    private int up_Combo;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private int down_Combo;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     #endregion
 
     private void Awake()
@@ -44,7 +43,7 @@ public class PlayerController : MonoBehaviour
         Move();
     }
     /// <summary>
-    /// ÈËÎïÒÆ¶¯
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½
     /// </summary>
     private void Move()
     {
@@ -123,7 +122,7 @@ public class PlayerController : MonoBehaviour
             animator.SetTrigger("AttackLR");
             animator.SetInteger("LR_Combo", lr_Combo);
         }
-        //Á¬»÷¼ä¸ô
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         if (lr_attack_Time!=0)
         {
             lr_attack_Time-=Time.deltaTime;

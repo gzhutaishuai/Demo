@@ -18,12 +18,13 @@ public class EnemyPatrolState : EnemyState
     {
         base.AniamtionTriggerEvent(triigerType);
 
+
     }
 
     public override void EnterState()
     {
         base.EnterState();
-
+        //TODO:巡逻状态功能的实际开发，以及配套动画如何实现
         //enemy.animator.SetTrigger("run");
     }
 

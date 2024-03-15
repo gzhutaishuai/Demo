@@ -5,15 +5,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName ="New Attack",menuName ="Attack/Attack_Data")]
 public class Attack_Data_SO : ScriptableObject
 {
-    public float melee_Range;//近战攻击范围
-
     public float arrow_Range;//远程攻击范围
 
     public float coll_Down;//攻击冷却
 
-    public float minDamage;//最小伤害
+    public int minDamage;//最小伤害
 
-    public float maxDamage;//最大伤害
+    public int maxDamage;//最大伤害
 
     public float criticalDamage;//暴击伤害加成
 

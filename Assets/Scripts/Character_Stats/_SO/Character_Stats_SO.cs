@@ -11,6 +11,8 @@ public class Character_Stats_SO : ScriptableObject
     public int baseDefence;//基础防御力
     public int curDefence;//当前防御力
     //TODO 完成升级功能
+
+
     [Header("Kill Numbers")]
     public int kills;//杀敌数
     [Header("Level")]

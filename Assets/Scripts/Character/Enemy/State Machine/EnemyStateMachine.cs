@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemtStateMachine : MonoBehaviour
+public class EnemtStateMachine 
 {
    public EnemyState currentState { get;set; }
    
@@ -10,7 +10,7 @@ public class EnemtStateMachine : MonoBehaviour
     /// 进入第一种逻辑状态
     /// </summary>
     /// <param name="startState"></param>
-   public void Initialize(EnemyState startState)
+   public void Initialize(EnemyState startState) 
    {
         currentState = startState;
         currentState.EnterState();

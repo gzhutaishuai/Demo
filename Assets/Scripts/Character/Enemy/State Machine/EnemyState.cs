@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyState : MonoBehaviour
+public class EnemyState 
 {
     protected Enemy enemy;//µ–»À¿‡
     protected EnemtStateMachine enemyStateMachine;//fsm
@@ -17,5 +17,5 @@ public class EnemyState : MonoBehaviour
     public virtual void ExitState() { }
     public virtual void FrameUpdate() { }
     public virtual void PhysicsUpdate() { }
-    public virtual void AniamtionTriggerEvent(Enemy.AnimationTriggerType triigerType) { }
+    public virtual void AniamtionTriggerEvent(Enemy.AnimationTriggerType triggerType) { }
 }

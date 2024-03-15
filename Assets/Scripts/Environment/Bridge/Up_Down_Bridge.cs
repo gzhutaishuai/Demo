@@ -12,7 +12,7 @@ public class Up_Down_Bridge : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag("Player") || collision.CompareTag("Enemy"))
         {
             if(is_LRCollider)
             {
